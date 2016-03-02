@@ -2,16 +2,22 @@
  <html>
  
  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href = "css/bootstrap.min.css" rel ="stylesheet">
+  <link href = "css/styles.css" rel = "stlysheet">
  <title> Brain & TaeLin</title>
          <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css" type="text/css" />
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> 
 
 </head>
  <style>
+ 
+navbar{
+ margin: 10px 10px;
+} 
 body{
     background-image: url("https://scontent.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/12472533_10154013950442174_4766259479733404638_n.jpg?oh=65d75cb39262b0e081bcb99f3a3e5f4b&oe=5765F3C2");
     background-repeat: no-repeat;
@@ -62,16 +68,25 @@ span{
 a{
    margin: 75px;
 }
-
+body {
+    background-image: url('https://scontent.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/12472533_10154013950442174_4766259479733404638_n.jpg?oh=65d75cb39262b0e081bcb99f3a3e5f4b&oe=5765F3C2'); 
+}
+@media only screen and (min-width: 400px) {
+    body { 
+        background-image: url('https://scontent.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/12472533_10154013950442174_4766259479733404638_n.jpg?oh=65d75cb39262b0e081bcb99f3a3e5f4b&oe=5765F3C2'); 
+    }
+}
 
  </style>
  
  
  
  
- <body>
+<body>
+     <div class="container-fluid">
+     <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
   <div class="container">
-    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+   
    <a href ="http://brianntaelin.github.io/wedding/home.html" class = "navbar-brand">Brian<span style="font-size:300`%;color:red;">&hearts;</span>TaeLin</span id="logo"></a>
     <div class="navbar-header navbar-right">
     
@@ -86,7 +101,7 @@ a{
       </ul>
      
      
-  
+    </div>
   </div>
 </nav>            
 </div>
