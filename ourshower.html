@@ -1,8 +1,15 @@
 
- <html>
+  <html>
  
  <head>
- <title> Brain & TaeLin</title>
+ <title>Gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 
+ 
          <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -11,11 +18,7 @@
 
 </head>
  <style>
-body{
-    background-image: url("/Users/amandakrummel/Desktop/weddingshowerpic.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%
-}
+
         
         h2 {
  font-family: cursive, fantasy, Courier New, Courier, monospace;
@@ -41,11 +44,7 @@ p {
  color: black;
 }
 
-footer{
-    font-family:cursive, fantasy, Courier New, Courier, monospace;
-    font-size: 12px;
-    color: black;
-}
+
 
 span{
     padding: 10px 0;
@@ -54,13 +53,60 @@ span{
     font-size: 40px;
 }
 
-.jumbotron{
-    background-color: white;
+
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
- 
-a{
-   margin: 75px;
+
+
+
+.carousel-inner {
+  border-radius: 15px;
 }
+
+.carousel-caption {
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+body{
+    background-image: url(https://scontent.xx.fbcdn.net/hphotos-xtp1/t31.0-8/12909443_10154103001007174_6058303189076809954_o.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+
+
 
 
  </style>
@@ -70,40 +116,129 @@ a{
  
  <body>
      <div class="container-fluid">
-         <br>
-         <br>
-     <a class="button btn-lg btn-info" href="/Users/amandakrummel/Desktop/wedding.html">Home</a> 
-             
-     <p align= "center"> You are cordially invited to </p><h2> SOMETHING BLUE </h2>
-     <p align="center"> A wedding shower to celebrating the wedding of Miss. TaeLin Kim & Mr. Brian Somers  </p>
-     
-     <br>
-     <br>
-     
-     <div class="container">
+     <nav class="navbar navbar-default navbar-inverse">
+      <div class="navbar-header navbar-right">
+      <a class="logo" href="" class="navbar-brand" navbar-left>Brian<span style="font-size:300`%;color:red;">&hearts;</span>  
+           TaeLin</i></span id="logo"></a> 
+    </div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
         
-         <div class="row">
-             <div class= "col-md-12">
-                 <h1> When: Saturday, March 26th @ 7:00 P.M. </h1>
-                 </div>
-                 
-                 <div class= "col-md-12">
-                     <h1> Where: </h1>
-                     </div>
-                     
-                     <div class= "col-md-12">
-                         <h1> What do: Celebrate with games, food, beverages, and more</h1>
-                         </div>
-                         
-                         <div class= "col-md-12">
-                             <h1> What to bring: 20,000 won and a wooden spoon :)</h1>
-                             </div>
-            
-         </div>
-         </div>
-         </div>
-              
-              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <li><a href="/Users/amandakrummel/Desktop/wedding.html">Home</a></li>
+        <li><a href="#map">Map</a></li>
+            <li><a href="/Users/amandakrummel/Desktop/rsvp.html">RSVP</a></li>
+          </ul>
+        </li>
+      
+     
+     
+    </div>
+</nav>            
+</div>
+
+<div class="container">
+ <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="https://scontent.xx.fbcdn.net/hphotos-xat1/t31.0-8/11261915_10154103000567174_2633802493354525046_o.jpg" alt="...">
+          <div class="carousel-caption">
+            <h2>Think Less, Feel More</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://scontent.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/524769_10154103002292174_2187064403321539959_n.jpg?oh=8b97caffb10679f48c87020e67dc18d2&oe=5777C337" alt="...">
+          <div class="carousel-caption">
+            <h2>Frown Less, Smile More</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://scontent.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/12924375_10154103002042174_918877211185292568_n.jpg?oh=41b6e62383840801bc226ba1dd248592&oe=578EA51C" alt="...">
+          <div class="carousel-caption">
+            <h2>Talk Less, Listen More</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://scontent.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12891007_10154103000767174_6257548153781242931_o.jpg" alt="...">
+          <div class="carousel-caption">
+            <h2>Judge Less, Accept More</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://scontent.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12924619_10154103000422174_3178567683666966931_n.jpg?oh=43a4ca73a9a10cfbccb258bfba908e97&oe=577CB977" alt="...">
+          <div class="carousel-caption">
+            <h2>Watch Less, Do More</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://scontent.xx.fbcdn.net/hphotos-xpl1/v/t1.0-9/12524360_10154103002157174_6316288366606791464_n.jpg?oh=b6e6a6b712cfe4efef2ad1cd4cd54c83&oe=574B8AF1" alt="...">
+          <div class="carousel-caption">
+            <h2>Complain Less, Appreciate More</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://scontent.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/1465156_10154103000262174_5749565445345499993_n.jpg?oh=58e904c67f61e234fb4f0077100c3ffb&oe=578F9958" alt="...">
+          <div class="carousel-caption">
+            <h2>Fear Less, Love More</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://scontent.xx.fbcdn.net/hphotos-xtp1/t31.0-8/12901486_10154103000887174_3081656551076201870_o.jpg" alt="...">
+          <div class="carousel-caption">
+            <h2><a class="logo" href="" class="navbar-brand" navbar-left>Brian <span style="font-size:300`%;color:red;">&hearts;</span>  
+           TaeLin</i></span id="logo"></a></h2>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    
+
+  </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="http://www.kirupa.com/js/prefixfree.min.js"></script>
     
@@ -116,4 +251,9 @@ a{
             });
         })();
         </script>
+
+
+</body>
+</html>
+            
         
